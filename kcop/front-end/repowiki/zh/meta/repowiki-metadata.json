@@ -1,0 +1,55 @@
+﻿{
+    "updated_at":  "2026-06-24T13:53:10+08:00",
+    "source_root":  "F:\\git\\kcop-zh-project\\aoi\\20250721\\copweb",
+    "generated_for":  "KJDP4/KUI legacy copweb project",
+    "code_snippets":  [
+                          {
+                              "path":  "index.html",
+                              "role":  "root redirect to apps/opp/index.html"
+                          },
+                          {
+                              "path":  "loader.js",
+                              "role":  "legacy module loader"
+                          },
+                          {
+                              "path":  "loader-config.js",
+                              "role":  "project loader config"
+                          },
+                          {
+                              "path":  "loader-frame-config.js",
+                              "role":  "KUI frame config"
+                          },
+                          {
+                              "path":  "basic/ready.js",
+                              "role":  "business ready/bootstrap"
+                          },
+                          {
+                              "path":  "frame/core/ajax.js",
+                              "role":  "ajax and KJDP protocol wrapper"
+                          },
+                          {
+                              "path":  "frame/kui.js",
+                              "role":  "KUI component registration"
+                          },
+                          {
+                              "path":  "Gruntfile.js",
+                              "role":  "build configuration"
+                          },
+                          {
+                              "path":  "apps/opp/operator/base-info/src/reset-cust-org.js",
+                              "role":  "typical business page module"
+                          }
+                      ],
+    "extend_info":  {
+                        "active":  true,
+                        "language":  "zh",
+                        "project_type":  "legacy-kjdp-kui"
+                    },
+    "project":  "copweb / FSAOI",
+    "notes":  [
+                  "No Vue/Vite/Pinia/Vue Router in current copweb root.",
+                  "Use loader.js data-main and define(require,exports,module).",
+                  "Use Grunt and build*.bat scripts for build/template tasks."
+              ],
+    "replaced_from":  "fs-aoi-web Vue/Vite repowiki"
+}
